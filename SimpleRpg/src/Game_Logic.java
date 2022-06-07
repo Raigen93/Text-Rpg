@@ -82,6 +82,8 @@ public class Game_Logic {
             System.out.println("The storm rages on, and you eventually return to a fitful slumber.");
             System.out.println("You rouse from your slumber as dawn breaks, and make your way down to the main room of the Inn.");
 
+            System.out.println(")(~-~-~-~-~-~-~-~-~-~)(");
+
             Game_Objects.playerCharacter.inRoom = 1;
 
         }
@@ -94,12 +96,16 @@ public class Game_Logic {
             Game_Objects.playerCharacter.setRations();
             Scanner sc = new Scanner(System.in);
             String com = sc.nextLine();
+
             //parse the command by spaces
             //read each word into an array valueString
             String[] words = com.split(" ");
             processCommand(words);
+
             System.out.println(")(~-~-~-~-~-~-~-~-~-~)(");
 
+
+                //Game-Over Condition
             if (Game_Objects.playerCharacter.currentHitPoints <= 0) {
                 System.out.println("You succumb to your wounds and drift out of this world...");
                 System.out.println("GAME OVER");
@@ -107,12 +113,16 @@ public class Game_Logic {
             }
         }
     }
+
+
     public void worldItem() {
         //only spawns once in world
 
         //Items
         Game_Objects.playerCharacter.itemsCarried.add(new Rations());
+
         Game_Objects.playerCharacter.itemsCarried.add(new Rations());
+
         Game_Objects.room.get(2).item.add(new ShortSword());
 
         //Enemies
@@ -181,6 +191,8 @@ public class Game_Logic {
         }
     }
 
+
+    //Lets player interact with various features in the environment
     public void interact(String[] x) {
         if (x.length == 1) {
             System.out.println("What would you like to interact with?");
@@ -203,7 +215,7 @@ public class Game_Logic {
         }
     }
 
-
+    //moves player around the map
     public void move(String[] x) {
         if (x.length == 1) {
             System.out.println("Where would you like to move to?");
@@ -229,6 +241,7 @@ public class Game_Logic {
         }
     }
 
+    //allows the player to consume rations, restoring health
     public void eat(String[] x) {
         if (x.length == 1) {
             System.out.println("What would you like to eat?");
@@ -240,7 +253,7 @@ public class Game_Logic {
                 System.out.println("You eat some rations.");
                     Game_Objects.playerCharacter.rations--;
                     eatRationsLoop:
-                    for (int a = 0; a < Game_Objects.playerCharacter.itemsCarried.size(); a++) {
+                   for (int a = 0; a < Game_Objects.playerCharacter.itemsCarried.size(); a++) {
                         Game_Objects.playerCharacter.itemsCarried.remove(a);
                         break eatRationsLoop;
                     }
@@ -260,13 +273,15 @@ public class Game_Logic {
         }
     }
 
+    //easter egg
     public void bleed(String[] x) {
         if (x.length == 1) {
             System.out.println("No, no. Come on " + Game_Objects.playerCharacter.name + " do something other than bleed.");
         }
     }
 
-        public void look(String[] x) {
+    //lets player see the environment, themselves, and others
+    public void look(String[] x) {
 
             if (x.length == 1) {
                 for (int i = 0; i < Game_Objects.room.size(); i++) {
@@ -282,6 +297,7 @@ public class Game_Logic {
                             System.out.println(Game_Objects.room.get(i).npc.get(j).desc);
 
                         }
+                        //break statement so description only prints once
                         lookItemLoop:
                         for (int j = 0; j < Game_Objects.room.get(i).item.size(); j++) {
                             System.out.println(Game_Objects.room.get(i).item.get(j).desc);
@@ -354,7 +370,7 @@ public class Game_Logic {
             }
         }
 
-
+        //allows player to talk to NPCs
         public void speak(String[] x) {
         if (x.length == 1) {
             System.out.println("Who would you like to speak to?");
@@ -377,7 +393,8 @@ public class Game_Logic {
         }
     }
 
-         public void get(String[] x) {
+    //player grabs a specific Item
+    public void get(String[] x) {
         if (x.length == 1) {
             System.out.println("What would you like to get?");
         }
@@ -390,6 +407,7 @@ public class Game_Logic {
                             if (x[1].equalsIgnoreCase(Game_Objects.room.get(j).item.get(k).id)) {
                                 Item localItem = Game_Objects.room.get(j).item.get(k);
 
+                                    //remove item from room item list and at it to player's
                                             Game_Objects.playerCharacter.itemsCarried.add(localItem);
                                             System.out.println("You pick up a " + localItem.itemName);
                                             Game_Objects.room.get(j).item.remove(k);
@@ -402,6 +420,8 @@ public class Game_Logic {
         }
     }
 
+
+    //used to summon specific NPCs, will disable once project is finished
     @SuppressWarnings("deprecation")
         public void summon(String[] x) {
         if (x.length == 1) {
@@ -427,6 +447,7 @@ public class Game_Logic {
         }
     }
 
+        //used to create specific Items, disabled once project finished
         @SuppressWarnings("deprecation")
         public void createItem(String[] x) {
             if (x.length == 1) {
@@ -454,13 +475,7 @@ public class Game_Logic {
             }
     }
 
-    public void GameOver() {
-        if (Game_Objects.playerCharacter.currentHitPoints <= 0) {
-            System.out.println("You succumb to your wounds and drift out of this world...");
-            System.out.println("GAME OVER");
-
-        }
-    }
+   //Starts the game
     public void newGame() {
         worldItem();
 
