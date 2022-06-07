@@ -1,0 +1,11 @@
+Name: Kobold 5
+Name: Kobold 11
+Name: Kobold 12
+Name: Kobold 17
+Name: KoboldGroup 19
+Name: Kobold 20
+Name: Kobold 21
+Name: KoboldGroup 24
+Name: Kobold 23
+Name: KoboldGroup 22
+Name: Kobold 25

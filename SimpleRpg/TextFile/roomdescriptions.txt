@@ -1,0 +1,207 @@
+RoomName: Bronze Tankard Inn
+Desc: The main room of the inn is sparsely decorated, and populated the same.
+Desc: You notice a faded painting of a woman, the only object that appears to be clean in the building, hanging over a smoldering fireplace.
+Desc: Stairs to the west of you lead up to the rooms above.
+Desc: A snort catches your attention from behind the bar, a Half-Orc barkeep stands behind it, idly cleaning a mug.
+Desc: A heavy oak door to the East leads outside.
+Exit: West 2
+Exit: East 3
+
+RoomName: Room at the inn
+Number: 2
+Desc: A simple room, it has a bed and a few of your personal items.
+Desc: The stairs to the East lead back down to the main room.
+Exit: East 1
+
+RoomName: Bronze Tankard Inn exterior
+Number: 3
+Desc: A brick and mortar building sitting alone on the outskirts of town.
+Desc: A worn sign reads "The Bronze Tankard".
+Desc: The road South leads back home, but there is nothing for you in that direction.
+Desc: The road North leads into the nearby forest, the oaken door to the West leads into the inn.
+Exit: North 4
+Exit: West 1
+
+RoomName: Forest Entrance
+Number: 4
+Desc: An ancient archway carved from stone spans across the road, continuing North will have you pass through it.
+Desc: The floor throughout the forest is dotted with puddles, soaked from the storm from last night.
+Desc: A statue of a maiden stands in the middle of the road.
+Desc: The road South will take you back towards the Inn.
+Exit: South 3
+Exit: North 5
+
+RoomName: Ancient Forest Road
+Number: 5
+Desc: The trees in the forest loom over you, casting all beneath them in a pleasant shade.
+Desc: The main path continues North, remnants of ancient cobblestones can be noticed buried in the soil.
+Desc: You barely notice the faintest of trails leading off to the West.
+Desc: You know the Ancient Archway lies to the South of here.
+Exit: North 6
+Exit: West 9
+Exit: South 4
+
+RoomName: Ancient Forest Road 2
+Number: 6
+Desc: You can hear birds chirping in the trees near here.
+Desc: A muddy path leads off to your East.
+Desc: The Ancient road continues to the North and South.
+Exit: East 16
+Exit: North 7
+Exit: South 5
+
+RoomName: Collapsed Cart
+Number: 7
+Desc: A decrepit old Merchant's Cart lays off to the side of the road.
+Desc: The Ancient Road continues to the North and South.
+Desc: Flowers line the foliage to your West, and a break in them suggests some sort of path.
+Exit: North 8
+Exit: West 15
+Exit: South 6
+
+RoomName: Cave Entrance
+Number: 8
+Desc: You stand before the gaping maw of a cave leading into the side of the mountain.
+Desc: A noise softly echoes from within, could that be... snoring?
+Desc: The Ancient road runs South, away from the cave.
+Desc: Continuing North will take you into the cave.
+Exit: North 200
+Exit: South 7
+
+
+RoomName: A Hidden Trail
+Number: 9
+Desc: You can barely make out a trail that runs West and East.
+Desc: Another small path leads South.
+Exit: West 12
+Exit: South 10
+Exit: East 5
+
+
+RoomName: Hidden Trail Branch
+Number: 10
+Desc: A small trail runs to the North and West.
+Exit: West 11
+Exit: North 9
+
+RoomName: A Modest Shrine
+Number: 11
+Desc: You emerge into a small clearing, its borders are well-kept and lined by a small fence.
+Desc: A small, waist high shrine sits in the middle of this clearing.
+Desc: A small trail runs to the North and East.
+Exit: North 12
+Exit: East 10
+
+RoomName: Hidden Trail West
+Number: 12
+Desc: Flowers bloom peacefully here, their aroma fills the air.
+Desc: You can barely make out a path that runs West and East.
+Desc: There seems to be a patch in the foliage to the North where flowers aren't growing. Could it be a path?
+Exit: West
+Exit: East 9
+Exit: South 11
+Exit: North 13
+
+RoomName: Garden Path South
+Number: 13
+Desc: You walk upon soft, well-kept grasses, and flowers of all varieties stretch for as far as you can see.
+Desc: Their petals glistening in the light with water droplets.
+Desc: A break in the flowers leads to your South.
+Desc: The path the soft grass makes continues to your East.
+Exit: East 14
+Exit: South 12
+
+RoomName: Garden Center
+Number: 14
+Desc: You come upon a gazebo nestled amongst the trees. Flowers have grown on and covered most of the structure.
+Desc: The path the soft grass makes continues on to the North and West.
+Exit: West 13
+Exit: North 15
+
+RoomName: Garden Path North
+Number: 15
+Desc: Soft grasses line the forest floor here, glistening in the light from last night's storm.
+Desc: Flowers line the bushes and trees here. A small patch missing flowers leads off to your East.
+Desc: The path the soft grass makes continues on to the South.
+Exit: East 7
+Exit: South 14
+
+RoomName: Muddy Path West
+Number: 16
+Desc: You trudge your way down a muddy trail, your boots sucking in the mud.
+Desc: There appear to be many footprints along the trail.
+Desc: The trail continues to the East and West.
+Exit: West 6
+Exit: East 17
+
+RoomName: Muddy Path
+Number: 17
+Desc: There a many footprints in the mud along the path here.
+Desc: The trail continues on to the East and West.
+Exit: East 18
+Exit: West 16
+
+RoomName: Muddy Path East
+Number: 18
+Desc: There are many footprints in the mud here.
+Desc: Totems line the trees here, crafted from the bones of many animals.
+Desc: You notice a few skulls that are most definitely humanoid.
+Desc: The path continues to the North and West.
+Exit: West 17
+Exit: North 19
+
+RoomName: Muddy Path North
+Number: 19
+Desc: More and more bones line the trees the further into the forest you travel.
+Desc: Your boots make sucking noises in the mud beneath your feet.
+Desc: A make-shift wooden gate sits to your North, and simple wooden walls wrap around the small village, its door sits ajar.
+Desc: The muddy trail continues to your South.
+Exit: South 18
+Exit: North 20
+
+RoomName: Kobold Village South
+Number: 20
+Desc: Simple huts made from sticks and mud dot the area.
+Desc: The huts contain bedding made from animal skins.
+Desc: A large bonfire burns to your North.
+Desc: The village gate sits to your South.
+Exit: North 21
+Exit: South 19
+
+RoomName: Kobold Bonfire
+Number: 21
+Desc: A roaring fire sits here, simple benches and drums sit around the fire.
+Desc: A much larger hut sits to the North of here, more of the village can be explored East and West, the gate sits South of here.
+Exit: North 22
+Exit: South 20
+Exit: East 23
+Exit: West 24
+
+RoomName: Kobold Village West
+Number: 24
+Desc: Small huts line the area here.
+Desc: A wooden wall wraps around the village to the west of here.
+Desc: The flames of the bonfire roar to the East of here.
+Exit: East 21
+
+RoomName: Kobold Village East
+Number: 23
+Desc: A few small huts sit closely together here. They appear to be in need of repairs and look ready to collapse.
+Desc: The wooden wall wraps around the village to the east of here.
+Desc: The flames of the bonfire roar to the West.
+Exit: West 21
+
+RoomName: Kobold Village North
+Number: 22
+Desc: The huts here seem to be more carefully crafted, they are adorned with colorful feathers and flowers.
+Desc: A larger, sturdy hut, mostly built from wood sits to the North here, it is even more elaborately decorated than those surrounding it.
+Desc: The flames of the bonfire roar South of here.
+Exit: North 25
+Exit: South 21
+
+RoomName: Kobold Chief's Hut
+Number: 25
+Desc: Animal furs and pelts decorate the inside of this hut, several beds made out of straw and pelts are arranged in a circle.
+Desc: The hut smells as though several creatures live here, with the size and decorations, you can deduce the Kobold Leader calls this home.
+Desc: You can exit to the South.
+Exit: South 22
