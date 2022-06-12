@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8bf0c8d-ed7a-49e9-9d67-b9453125698f" name="Changes" comment="Edited for readability">
-      <change afterPath="$PROJECT_DIR$/SimpleRpg/src/GreatAxe.java" afterDir="false" />
+    <list default="true" id="a8bf0c8d-ed7a-49e9-9d67-b9453125698f" name="Changes" comment="Added new Items, worked on key and lock interactions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleRpg/src/Enemy_Thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRpg/src/Enemy_Thread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleRpg/src/Game_Logic.java" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRpg/src/Game_Logic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleRpg/src/Game_Objects.java" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRpg/src/Game_Objects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleRpg/src/Interact_Thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRpg/src/Interact_Thread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleRpg/src/Merchant.java" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRpg/src/Merchant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleRpg/src/Orc.java" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRpg/src/Orc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1654635631322</updated>
       <workItem from="1654635636229" duration="1658000" />
-      <workItem from="1655047977127" duration="1701000" />
+      <workItem from="1655047977127" duration="6186000" />
     </task>
     <task id="LOCAL-00001" summary="Edited for readability">
       <created>1654637228077</created>
@@ -75,7 +68,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654637228077</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added new Items, worked on key and lock interactions">
+      <created>1655054073129</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655054073129</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added new Items, worked on key and lock interactions">
+      <created>1655054171125</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655054171125</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Edited for readability" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited for readability" />
+    <MESSAGE value="Added new Items, worked on key and lock interactions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new Items, worked on key and lock interactions" />
   </component>
 </project>
