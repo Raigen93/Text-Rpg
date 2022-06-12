@@ -2,14 +2,14 @@
 public class Orc extends NPC {
 
     public Orc() {
-        name = "An Orc";
+        name = "Orc";
         desc = "A large, bestial humanoid, it wields a large axe.";
-        hitPoints = 60;
-        accuracy = 35;
+        hitPoints = 30 + (Game_Objects.rng.randomNumber(30));
+        accuracy = 4;
         id = "Orc";
-        damageBonus = 5;
+        damageBonus = 4;
         armor = 10;
-        EXPValue = 10;
+        EXPValue = 30;
     }
 }
 

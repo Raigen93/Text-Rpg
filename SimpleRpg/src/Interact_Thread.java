@@ -41,7 +41,7 @@ public class Interact_Thread {
             }
             ArrayList<String> interactLines = new ArrayList<String>();
             try {
-                interactLines = currentGL.readLines("TextFile/interactLocs.txt");
+                interactLines = currentGL.readLines("SimpleRPG/TextFile/interactLocs.txt");
             } catch (IOException e) {
                 //TODO auto-generated catch block
                 e.printStackTrace();

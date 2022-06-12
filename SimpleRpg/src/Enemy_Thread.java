@@ -40,7 +40,7 @@ public class Enemy_Thread {
             }
             ArrayList<String> lines = new ArrayList<String>();
             try {
-                lines = currentGL.readLines("TextFile/enemylocations.txt");
+                lines = currentGL.readLines("SimpleRPG/TextFile/enemylocations.txt");
             } catch (IOException e) {
                 //TODO auto-generated catch block
                 e.printStackTrace();

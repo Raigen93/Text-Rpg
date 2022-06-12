@@ -11,7 +11,7 @@ public class Game_Logic {
 
         ArrayList<String> roomInfo = new ArrayList<>();
         try {
-            roomInfo = readLines("TextFile/roomdescriptions.txt");
+            roomInfo = readLines("SimpleRPG/TextFile/roomdescriptions.txt");
         } catch (IOException e) {
             //TODO Auto-generated catch block
             e.printStackTrace();
@@ -191,7 +191,6 @@ public class Game_Logic {
         }
     }
 
-
     //Lets player interact with various features in the environment
     public void interact(String[] x) {
         if (x.length == 1) {
@@ -335,9 +334,13 @@ public class Game_Logic {
 
                     }
 
-                    System.out.println("Kobold Talisman x " + koboldTally);
+                    if(koboldTally > 0) {
+                        System.out.println("Kobold Talisman x " + koboldTally);
+                    }
 
-                    System.out.println("Goblin Ear x " + goblinEar);
+                    if(goblinEar > 0) {
+                        System.out.println("Goblin Ear x " + goblinEar);
+                    }
 
                     System.out.println("You have " + Game_Objects.playerCharacter.rations + " rations.");
                 }

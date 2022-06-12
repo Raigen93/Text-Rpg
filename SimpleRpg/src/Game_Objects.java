@@ -25,6 +25,8 @@ public class Game_Objects {
         ItemDataBase.add(new RingOfMight());
         ItemDataBase.add(new GoblinEar());
         ItemDataBase.add(new Rations());
+        ItemDataBase.add(new GreatAxe());
+        ItemDataBase.add(new CottageKey());
     }
 
     public static void initializeInteractables() {
@@ -33,5 +35,6 @@ public class Game_Objects {
         Interactables.add(new Ehleria());
         Interactables.add(new Merchant());
         Interactables.add(new Innkeeper());
+        Interactables.add(new LockedDoor());
     }
 }

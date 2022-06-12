@@ -97,7 +97,7 @@ Number: 12
 Desc: Flowers bloom peacefully here, their aroma fills the air.
 Desc: You can barely make out a path that runs West and East.
 Desc: There seems to be a patch in the foliage to the North where flowers aren't growing. Could it be a path?
-Exit: West
+Exit: West 26
 Exit: East 9
 Exit: South 11
 Exit: North 13
@@ -205,3 +205,12 @@ Desc: Animal furs and pelts decorate the inside of this hut, several beds made o
 Desc: The hut smells as though several creatures live here, with the size and decorations, you can deduce the Kobold Leader calls this home.
 Desc: You can exit to the South.
 Exit: South 22
+
+RoomName: A Stranger's Porch
+Number: 26
+Desc: You emerge into a small clearing, the edge of which is covered in strange flowers.
+Desc: A small cottage sits in the middle of the clearing, north of you, a trail of smoke drifts upwards from the chimney, dramatically shifting colors in the breeze.
+Desc: The door to the cottage is wood, reinforced with iron. The handle is oddly ornate, inlaid with gold and silver.
+Desc: You could return to the hidden path East of here.
+Exit: East 12
+
